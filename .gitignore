@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore all csv data files
+*.csv
+*.tsv
+*.data
+
+# Ignore any Excel files you might have
+*.xls
+*.xlsx
+
+# Environment
+.env
+venv/
+env/
+ENV/
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS
+.DS_Store
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Output folders
+output/
+logs/
+reports/
+
+# Ignore compiled notebooks (if you use exporter)
+*.nbconvert.ipynb
